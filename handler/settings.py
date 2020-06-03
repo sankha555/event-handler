@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
 
-    'users', 
-    'events',  
+    'users.apps.UsersConfig', 
+    'events.apps.EventsConfig',  
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -181,7 +181,6 @@ ACCOUNT_FORMS = {
     'reset_password_from_key': 'allauth.account.forms.ResetPasswordKeyForm',
     'disconnect': 'allauth.socialaccount.forms.DisconnectForm',
 }
-
 
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
