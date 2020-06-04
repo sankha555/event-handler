@@ -198,4 +198,7 @@ MEDIA_URL = '/media/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='556525835496-v95godcntfutd4nfcggscog5julccr52.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'g62ibS8g91FZ9inSQOTGSs3e'
+
 #django_heroku.settings(locals())
