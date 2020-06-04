@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-#import django_heroku
+import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -201,4 +201,4 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='556525835496-v95godcntfutd4nfcggscog5julccr52.apps.googleusercontent.com'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'g62ibS8g91FZ9inSQOTGSs3e'
 
-#django_heroku.settings(locals())
+django_heroku.settings(locals())
