@@ -94,6 +94,14 @@ DATABASES = {
     }
 }
 
+'''
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': os.path.join(BASE_DIR, 'db.postgresql'),
+    }
+}
+'''
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
