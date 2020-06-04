@@ -27,7 +27,7 @@ SECRET_KEY = '21782881035284dfc45a6a79eeb321096f50cc7b8c7b52cf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['event-handler-bppc.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
 
 # Application definition
