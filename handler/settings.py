@@ -40,15 +40,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
-
+    'django.contrib.sites',
     'users.apps.UsersConfig', 
     'events.apps.EventsConfig',  
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'allauth.socialaccount.providers.google',
-
-    'django.contrib.sites',
+    'allauth.socialaccount.providers.google', 
 
     'crispy_forms',
 ]
